@@ -5,7 +5,6 @@ const Strings = stringKey => {
 
   switch (lang) {
     case 'hu':
-    case 'hu-HU':
       return strings.hu[stringKey];
     default:
       return strings.hu[stringKey];

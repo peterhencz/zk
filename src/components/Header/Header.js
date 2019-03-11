@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-
-import './Header.css';
+import logo from '../../assets/logo.svg';
+import Button from '../Button/Button.js';
 import Strings from '../Strings';
+import './Header.css';
 
 class Header extends Component {
   render() {
     return (
       <div className="navbar">
-        <NavLink to="/">
-          <p>{Strings('main_page')}</p>
-        </NavLink>
-        <NavLink to="/about_us">
-          <p>{Strings('about_us')}</p>
-        </NavLink>
-        <NavLink to="/completed_projects">
-          <p>{Strings('completed_projects')}</p>
-        </NavLink>
-        <NavLink to="how_to">
-          <p>{Strings('how_to')}</p>
-        </NavLink>
-        <NavLink to="donate">
-          <p>{Strings('donate')}</p>
-        </NavLink>
+        <img id="logo" alt="logo" src={logo} />
+        <div className="menu">
+          <NavLink to="/">
+            <Button className="button-menu">{Strings('main_page')}</Button>
+          </NavLink>
+          <NavLink to="/about_us">
+            <Button className="button-menu">{Strings('about_us')}</Button>
+          </NavLink>
+          <NavLink to="/completed_projects">
+            <Button className="button-menu">{Strings('completed_projects')}</Button>
+          </NavLink>
+          <NavLink to="how_to">
+            <Button className="button-menu">{Strings('how_to')}</Button>
+          </NavLink>
+          <NavLink to="donate">
+            <Button className="button-menu">{Strings('donate')}</Button>
+          </NavLink>
+        </div>
       </div>
     );
   }
