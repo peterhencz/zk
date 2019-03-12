@@ -12,19 +12,19 @@ class Header extends Component {
         <img id="logo" alt="logo" src={logo} />
         <div className="menu">
           <NavLink to="/">
-            <Button className="button-menu">{Strings('main_page')}</Button>
+            <Button className="button">{Strings('title')}</Button>
           </NavLink>
           <NavLink to="/about_us">
-            <Button className="button-menu">{Strings('about_us')}</Button>
+            <Button className="button">{Strings('about_us')}</Button>
           </NavLink>
           <NavLink to="/completed_projects">
-            <Button className="button-menu">{Strings('completed_projects')}</Button>
+            <Button className="button">{Strings('completed_projects')}</Button>
           </NavLink>
           <NavLink to="how_to">
-            <Button className="button-menu">{Strings('how_to')}</Button>
+            <Button className="button">{Strings('how_to')}</Button>
           </NavLink>
           <NavLink to="donate">
-            <Button className="button-menu">{Strings('donate')}</Button>
+            <Button className="button">{Strings('donate')}</Button>
           </NavLink>
         </div>
       </div>

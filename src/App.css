@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+* {
+  background-color: #efefef;
+  -webkit-font-smoothing: antialiased;
+}
+
 .App {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;

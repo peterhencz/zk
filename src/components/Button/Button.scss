@@ -1,0 +1,35 @@
+.button {
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  // margin: 0.5em;
+  font-size: 1em;
+  color: #000;
+  text-align: center;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+  background: #dbdbdb;
+  &:after {
+    position: absolute;
+    -webkit-transition: all 700ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 1000ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0em;
+    height: 0.1em;
+    background: #40ea88;
+  }
+  &::after {
+    right: 0;
+    left: auto;
+  }
+  &:hover {
+    cursor: pointer;
+    &:after {
+      width: 100%;
+      left: 0;
+    }
+  }
+}
