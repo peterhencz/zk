@@ -18,9 +18,10 @@ p {
 
 .center {
   display: grid;
-  height: 100vh;
+  height: 200vh;
   margin: 0em;
   place-items: center center;
+  z-index: -3;
 }
 
 h1 {
