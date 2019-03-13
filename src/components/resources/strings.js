@@ -28,6 +28,12 @@ const strings = {
       '- egyenként végigmegyünk az önkormányzatokon és kidolgozzuk velük a civil faültetés kereteit',
     list_element_5:
       '- ezek után bármelyik lépcsőház dönthet úgy, hogy elültet egy fát a háza elé, ezzel szebbé téve a környezetét.',
+    about_us_1:
+      '2017. nyarán New Yorkban jártam, hogy utazós videót forgassak, ott vettem észre, hogy mennyivel zöldebb az a város, mint Budapest. A világ egyik legnagyobb metropoliszában több a fa, mint néhány budapesti kerületben! Ekkor határoztam el, hogy kialakítom valamiféle civil faültetési program kereteit, hogy ne kelljen az önkormányzatokra várni, hogy mindenki magáénak érezze a várost, hogy mindenki, aki akar, tudjon tenni a környezetéért, és hogy a parkoló autók és a gyalogosok érdekeinek a sérülése nélkül tudjuk kizöldíteni a várost.',
+    about_us_2:
+      'Sok falat kell áttörnünk, de haladunk a cél felé: hogy Budapesten bárki, aki zöldebb környezetet akar magának, tehessen érte anélkül, hogy el kellene merülni az engedélyeztetés útvesztőiben.',
+    about_us_3:
+      'A program támogatására elindítottam egy pólóprojektet, bárki, aki vásárol a Youtube csatornám tartalmaihoz kapcsolódó ajándéktárgyakból, segíti a projektet, mert a nyereséget egészében a projektre fordítom, illetve más módon is lehet támogatni a programot, de a legfontosabb mégis az, hogy sokan jelentkezzenek a Zöldítsük ki Budapestet programba bevont kerületekből faültetésre. Eleinte ezekből csak apró zöld szigetek jönnek létre, de ha a zöld szigetek egy-két évtized múlva összeérnek, akkor elmondhatjuk magunkról, hogy kizöldítettük Budapestet!',
   },
 };
 

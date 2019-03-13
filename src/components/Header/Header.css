@@ -1,11 +1,12 @@
 .navbar,
 .menu {
-  background: #e4e4e4;
+  background: #efefef;
 }
 
 .navbar {
   width: 100vw;
   position: fixed;
+  top: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

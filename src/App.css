@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
 
 * {
-  background-color: #efefef;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e4e4e4;
 }
 
 .App {
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  text-align: center;
 }
 
 p {
   margin: 1em;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .center {
@@ -25,6 +28,7 @@ p {
 }
 
 h1 {
+  font-size: 4em;
   text-decoration: underline;
   text-decoration-color: #40ea88;
 }
