@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
+import hu_flag_i from '../../assets/hu_flag_i.png';
+import gb_flag_i from '../../assets/gb_flag_i.png';
 import Button from '../Button/Button.js';
 import Strings from '../Strings';
 import './Header.css';
@@ -26,6 +28,8 @@ class Header extends Component {
           <NavLink to="donate">
             <Button className="button">{Strings('donate')}</Button>
           </NavLink>
+          {/* <img src={hu_flag_i} alt="Logo" />
+          <img src={gb_flag_i} alt="Logo" /> */}
         </div>
       </div>
     );
