@@ -6,7 +6,7 @@
   position: fixed;
   padding-top: 1em;
   padding-left: 5vw;
-  top: 50vh;
+  top: 60vh;
   width: 20vw;
   background: #fefefe;
   align-items: center;
@@ -23,27 +23,53 @@
 .main-center {
   opacity: 1;
   display: flex;
-  height: 60%;
-  padding: 4em;
-  padding-top: 10em;
+  flex-direction: column;
+  height: 80%;
+  padding-top: 3em;
+  padding-bottom: 3em;
   position: absolute;
   top: 160vh;
   width: auto;
   max-width: 100%;
   background: #fefefe;
   transition: 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  align-content: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
-.instafeed {
+.social {
+  max-height: 30vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialtitle {
+  max-height: 30vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.instafeed,
+.opinion {
   width: 40%;
   height: 70vh;
   transition: 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
+.opinion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hashtagTitle {
+  width: 50vw;
   position: relative;
+  padding-right: 0em;
   top: -10vw;
   transform: scale(0.6);
   transition: 700ms cubic-bezier(0.445, 0.05, 0.55, 0.95);

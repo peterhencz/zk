@@ -71,7 +71,7 @@ class MainPage extends Component {
       this.setState({
         mainCenterOpacity: '1',
         mainTop: '110vh',
-        mainHeight: '100%',
+        mainHeight: '120%',
       });
     } else {
       this.setState({
@@ -123,7 +123,7 @@ class MainPage extends Component {
                 <p>{Strings('description_2')}</p>
               </div>
               <div className="description green-text">
-                <h2>{Strings('description_3')}</h2>
+                <h3>{Strings('description_3')}</h3>
               </div>
               <div className="descripiton">
                 <p>{Strings('list_element_1')}</p>
@@ -159,32 +159,60 @@ class MainPage extends Component {
             top: this.state.mainTop,
             height: this.state.mainHeight,
           }}>
-          <div className="hashtagTitle">
-            <h1
-              style={{
-                transform: `translateX(${this.state.hashtagTranslateX}) scale(${
-                  this.state.hashtagScale
-                })`,
-              }}>
-              {Strings('hashtagTitle')}
-            </h1>
+          <div className="socialtitle">
+            <div className="hashtagTitle">
+              <h1
+                style={{
+                  transform: `translateX(${this.state.hashtagTranslateX}) scale(${
+                    this.state.hashtagScale
+                  })`,
+                }}>
+                {Strings('hashtagTitle')}
+              </h1>
+            </div>
+            <div className="hashtagTitle">
+              <h1
+                style={{
+                  transform: `translateX(${this.state.hashtagTranslateX}) scale(${
+                    this.state.hashtagScale
+                  })`,
+                }}>
+                {Strings('opinions')}
+              </h1>
+            </div>
           </div>
-          <div
-            className="instafeed"
-            style={{
-              opacity: this.state.instafeedOpacity,
-              transform: `translateX(${this.state.instaTranslateX})
+          <div className="social">
+            <div
+              className="instafeed"
+              style={{
+                opacity: this.state.instafeedOpacity,
+                transform: `translateX(${this.state.instaTranslateX})
               scale(${this.state.instaScale})`,
-            }}>
-            <img src={insta1} alt="insta" />
-            <img src={insta2} alt="insta" />
-            <img src={insta3} alt="insta" />
-            <img src={insta4} alt="insta" />
-            <img src={insta5} alt="insta" />
-            <img src={insta6} alt="insta" />
-            <img src={insta7} alt="insta" />
-            <img src={insta8} alt="insta" />
-            <img src={insta9} alt="insta" />
+              }}>
+              <img src={insta1} alt="insta" />
+              <img src={insta2} alt="insta" />
+              <img src={insta3} alt="insta" />
+              <img src={insta4} alt="insta" />
+              <img src={insta5} alt="insta" />
+              <img src={insta6} alt="insta" />
+              <img src={insta7} alt="insta" />
+              <img src={insta8} alt="insta" />
+              <img src={insta9} alt="insta" />
+            </div>
+            <div
+              className="opinion"
+              style={{
+                opacity: this.state.instafeedOpacity,
+                transform: `translateX(${this.state.instaTranslateX})
+              scale(${this.state.instaScale})`,
+              }}>
+              <h3 className="italic">{Strings('opinion1')}</h3>
+              <p>{Strings('opinion1_id')}</p>
+              <h3 className="italic">{Strings('opinion2')}</h3>
+              <p>{Strings('opinion2_id')}</p>
+              <h3 className="italic">{Strings('opinion3')}</h3>
+              <p>{Strings('opinion3_id')}</p>
+            </div>
           </div>
           <Footer />
         </div>

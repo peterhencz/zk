@@ -2,7 +2,8 @@ const strings = {
   hu: {
     title: 'Kizöldítjük Budapestet',
     about_the_movement: 'Röviden a mozgalomról',
-    contact: 'csaba@zolditsukkibudapestet.hu',
+    contact_mail: 'csaba@zolditsukkibudapestet.hu',
+    phone: '+36309876543',
     main_page: 'Főoldal',
     about_us: 'Rólunk',
     completed_projects: 'Megvalósult fejlesztések',
@@ -51,6 +52,18 @@ const strings = {
     step_by_step: 'Lépésről lépésre',
     official_email: 'csaba@zolditsukkibudapestet.hu',
     hashtagTitle: '#zölditsükkibudapestet',
+    social_media: 'Social Media',
+    contact: 'Kontakt',
+    facebook: 'Facebook',
+    youtube: 'YouTube',
+    instagram: 'Instagram',
+    opinions: 'Rólunk mondták',
+    opinion1: '"I love cheese, especially edam halloumi."',
+    opinion1_id: 'Kis Cica',
+    opinion2: '"Macaroni cheese gouda emmental."',
+    opinion2_id: 'Kkecskesajt.hu',
+    opinion3: '"Paneer rubber cheese chalk and cheese."',
+    opinion3_id: '@greenbudapest',
   },
 };
 

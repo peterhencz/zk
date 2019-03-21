@@ -8,8 +8,18 @@ class Footer extends Component {
   render() {
     return (
       <div id="footer">
-        <div className="menu" />
-        cica
+        <div className="social-media-menu">
+          <h4 className="underline">{Strings('social_media')}</h4>
+          <p>{Strings('facebook')}</p>
+          <p>{Strings('youtube')}</p>
+          <p>{Strings('instagram')}</p>
+        </div>
+        <div className="contact">
+          <h4 className="underline">{Strings('contact')}</h4>
+          <p>{Strings('contact_mail')}</p>
+          <p>{Strings('phone')}</p>
+        </div>
+        <div />
       </div>
     );
   }
