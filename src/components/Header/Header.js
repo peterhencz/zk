@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
-import hu_flag_i from '../../assets/hu_flag_i.png';
-import gb_flag_i from '../../assets/gb_flag_i.png';
 import Button from '../Button/Button.js';
 import Strings from '../Strings';
 import './Header.css';

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Header from './components/Header/Header.js';
+
 import MainPage from './pages/main_page';
 import CompletedProjects from './pages/completed_projects';
 import AboutUs from './pages/about_us';

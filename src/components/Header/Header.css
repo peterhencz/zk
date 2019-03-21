@@ -1,6 +1,7 @@
 .navbar,
 .menu {
   background: #efefef;
+  z-index: 3;
 }
 
 .navbar {

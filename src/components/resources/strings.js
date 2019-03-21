@@ -30,7 +30,7 @@ const strings = {
       '- egyenként végigmegyünk az önkormányzatokon és kidolgozzuk velük a civil faültetés kereteit',
     list_element_5:
       '- ezek után bármelyik lépcsőház dönthet úgy, hogy elültet egy fát a háza elé, ezzel szebbé téve a környezetét.',
-    counter_people: 'támogatta eddig a projektet',
+    counter_sponsor: 'fő támogatta eddig a projektet',
     counter_money: 'forint támogatás gyűlt össze',
     about_us_1:
       '2017. nyarán New Yorkban jártam, hogy utazós videót forgassak, ott vettem észre, hogy mennyivel zöldebb az a város, mint Budapest. A világ egyik legnagyobb metropoliszában több a fa, mint néhány budapesti kerületben! Ekkor határoztam el, hogy kialakítom valamiféle civil faültetési program kereteit, hogy ne kelljen az önkormányzatokra várni, hogy mindenki magáénak érezze a várost, hogy mindenki, aki akar, tudjon tenni a környezetéért, és hogy a parkoló autók és a gyalogosok érdekeinek a sérülése nélkül tudjuk kizöldíteni a várost.',
@@ -50,6 +50,7 @@ const strings = {
       'Amint kész van az első mintaprojekt, egy pdf-et találsz majd itt, amiben lépésről lépésre leírjuk, hogyan tudsz az általunk kényelmesre taposott úton végighaladva fát ültetni a házad elé a partnerkerületekben.',
     step_by_step: 'Lépésről lépésre',
     official_email: 'csaba@zolditsukkibudapestet.hu',
+    hashtagTitle: '#zölditsükkibudapestet',
   },
 };
 
