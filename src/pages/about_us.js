@@ -8,7 +8,6 @@ class AboutUs extends Component {
   render() {
     return (
       <div>
-        <Header />
         <div className="about-us-title">
           <h1>{Strings('about_us')}</h1>
         </div>
